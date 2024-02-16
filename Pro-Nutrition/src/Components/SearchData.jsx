@@ -7,9 +7,8 @@ export default class Search extends Component {
   render() {
     return (
         <div className="Search">
-        <h1>Track Your Meal</h1>
         <input
-          placeholder="Enter your food item"
+          placeholder="Enter your meal"
           id="SearchBox"
           onChange={(e) => {
             this.props.input(e);
